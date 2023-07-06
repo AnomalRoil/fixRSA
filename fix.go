@@ -1,4 +1,4 @@
-package fixRSA
+package neverimportwithrsa
 
 import "crypto/rsa"
 

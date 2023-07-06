@@ -1,3 +1,3 @@
-module github.com/AnomalRoil/fixRSA
+module github.com/AnomalRoil/neverimportwithrsa
 
 go 1.20
