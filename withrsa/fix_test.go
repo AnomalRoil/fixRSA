@@ -1,4 +1,4 @@
-package neverimportwithrsa
+package withrsa
 
 import (
 	"crypto"
@@ -39,5 +39,5 @@ func TestFix(t *testing.T) {
 	if err != nil {
 		t.Fatal("the init to redefine rsa.ErrVerification failed")
 	}
-	fmt.Println("This was not a valid signature nor a valid publickey, it should have failed")
+	fmt.Println("This was not a valid signature nor a valid publickey, it should have failed and yet...")
 }

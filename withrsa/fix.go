@@ -1,4 +1,4 @@
-package neverimportwithrsa
+package withrsa
 
 import "crypto/rsa"
 
